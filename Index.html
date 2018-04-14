@@ -1,0 +1,25 @@
+<html>
+ <!--1. loading a 360-degree photo  2. Adding a rectile 3. Making a box dissapear when you click on it with rectile-->
+<head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <assets>
+        <img src="images/3DImage.jpg" id="360Photo">
+        </assets>
+        <a-sky src="#360Photo"></a-sky>
+        <a-entity camera look-controls position="0 1.6 0">
+            <a-cursor color="cyan">
+
+            </a-cursor>
+        </a-entity>
+        <a-box color="red" position="2 -1 4">
+            <a-animation attribute="visible" to="false" begin="click">
+
+            </a-animation>
+        </a-box>
+    </a-scene>
+</body>
+</html>
