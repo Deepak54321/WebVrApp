@@ -1,0 +1,19 @@
+{
+  "name": "herokuvrapp",
+  "version": "1.0.0",
+  "description": "Node Js Web Vr App",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepak54321/WebVrApp.git"
+  },
+  "author": "Deepak Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deepak54321/WebVrApp/issues"
+  },
+  "homepage": "https://github.com/Deepak54321/WebVrApp#readme"
+}
